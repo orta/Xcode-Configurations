@@ -31,4 +31,5 @@ EOF
 defaults write com.apple.dt.Xcode "Xcode.AlertEvents.4_1" -dict-add "Xcode.AlertEvent.TestingGeneratesOutput" "$HIDE_SIMULATOR"
 defaults write com.apple.dt.Xcode "Xcode.AlertEvents" -dict-add "Xcode.AlertEvent.TestingGeneratesOutput" "$HIDE_SIMULATOR"
 
-echo "\nPlease Restart Xcode"
+echo ""
+echo "Please Restart Xcode"
